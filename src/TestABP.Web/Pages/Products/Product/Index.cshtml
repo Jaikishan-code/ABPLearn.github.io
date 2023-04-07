@@ -1,0 +1,55 @@
+@page
+@using TestABP.Permissions
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using TestABP.Web.Pages.Products.Product
+@using TestABP.Localization
+@using TestABP.Web.Menus
+@model IndexModel
+@inject IPageLayout PageLayout
+@inject IHtmlLocalizer<TestABPResource> L
+@inject IAuthorizationService Authorization
+@{
+    PageLayout.Content.Title = L["Product"].Value;
+    PageLayout.Content.BreadCrumb.Add(L["Menu:Product"].Value);
+    PageLayout.Content.MenuItemName = TestABPMenus.Product;
+}
+
+@section scripts
+{
+    <abp-script src="/Pages/Products/Product/index.js" />
+}
+@section styles
+{
+    <abp-style src="/Pages/Products/Product/index.css"/>
+}
+
+<abp-card>
+    <abp-card-header>
+        <abp-row>
+            <abp-column size-md="_6">
+                <abp-card-title>@L["Product"]</abp-card-title>
+            </abp-column>
+            <abp-column size-md="_6" class="text-end">
+			    @if (await Authorization.IsGrantedAsync(TestABPPermissions.Product.Create))
+                {
+                <abp-button id="NewProductButton"
+                            text="@L["CreateProduct"].Value"
+                            icon="plus"
+                            button-type="Primary" />
+                }
+            </abp-column>
+        </abp-row>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-row class="mb-3">
+            <a abp-collapse-id="ProductCollapse" class="text-secondary">@L["TableFilter"] </a>
+        </abp-row>
+        <abp-collapse-body id="ProductCollapse">
+            <abp-dynamic-form abp-model="ProductFilter" id="ProductFilter" required-symbols="false"/>
+            <hr />
+        </abp-collapse-body>
+        <abp-table striped-rows="true" id="ProductTable" class="nowrap"/>
+    </abp-card-body>
+</abp-card>

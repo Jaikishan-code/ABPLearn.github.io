@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = TestABP
+build_property.ProjectDir = C:\Users\a\TestABP\src\TestABP.Application.Contracts\

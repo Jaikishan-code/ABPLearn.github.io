@@ -1,0 +1,13 @@
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\bin\Debug\netstandard2.0\TestABP.Application.Contracts.deps.json
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\bin\Debug\netstandard2.0\TestABP.Application.Contracts.dll
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\bin\Debug\netstandard2.0\TestABP.Application.Contracts.pdb
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\bin\Debug\netstandard2.0\TestABP.Domain.Shared.dll
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\bin\Debug\netstandard2.0\TestABP.Domain.Shared.pdb
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.AssemblyInfo.cs
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.csproj.CopyComplete
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.dll
+C:\Users\a\TestABP\src\TestABP.Application.Contracts\obj\Debug\netstandard2.0\TestABP.Application.Contracts.pdb

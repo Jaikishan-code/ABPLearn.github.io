@@ -1,0 +1,57 @@
+@page
+@using TestABP.Permissions
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@using TestABP.Web.Pages.Students.Student
+@using TestABP.Localization
+@using TestABP.Web.Menus
+@model IndexModel
+@inject IPageLayout PageLayout
+@inject IHtmlLocalizer<TestABPResource> L
+@inject IAuthorizationService Authorization
+@{
+    PageLayout.Content.Title = L["Student"].Value;
+    PageLayout.Content.BreadCrumb.Add(L["Student"].Value);
+    PageLayout.Content.MenuItemName = TestABPMenus.Student;
+}
+
+@section scripts
+{
+    <abp-script src="/Pages/Students/Student/index.js" />
+}
+@section styles
+{
+    <abp-style src="/Pages/Students/Student/index.css"/>
+}
+
+<abp-card>
+    <abp-card-header>
+        <abp-row>
+            <abp-column size-md="_6">
+                <abp-card-title>@L["Student"]</abp-card-title>
+            </abp-column>
+            <abp-column size-md="_6" class="text-end">
+			    @if (await Authorization.IsGrantedAsync(TestABPPermissions.Student.Create))
+                {
+               @* <abp-button id="NewStudentButton"
+                            text="@L["Create Student"].Value"
+                            icon="plus"
+                            button-type="Primary" />*@
+
+                    <a class="btn btn-primary" href="/Students/Student/CreateModal"><i class="fa fa-plus"></i> @L["Create Student"].Value</a>
+                }
+            </abp-column>
+        </abp-row>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-row class="mb-3">
+            <a abp-collapse-id="StudentCollapse" class="text-secondary">@L["TableFilter"] </a>
+        </abp-row>
+        <abp-collapse-body id="StudentCollapse">
+            <abp-dynamic-form abp-model="StudentFilter" id="StudentFilter" required-symbols="false"/>
+            <hr />
+        </abp-collapse-body>
+        <abp-table striped-rows="true" id="StudentTable" class="nowrap"/>
+    </abp-card-body>
+</abp-card>

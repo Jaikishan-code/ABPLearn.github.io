@@ -1,0 +1,15 @@
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.HttpApi.Client.deps.json
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.HttpApi.Client.dll
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.HttpApi.Client.pdb
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.Application.Contracts.dll
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.Domain.Shared.dll
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.Application.Contracts.pdb
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\bin\Debug\netstandard2.0\TestABP.Domain.Shared.pdb
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.csproj.AssemblyReference.cache
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.AssemblyInfoInputs.cache
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.AssemblyInfo.cs
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.csproj.CoreCompileInputs.cache
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.csproj.CopyComplete
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.dll
+C:\Users\a\TestABP\src\TestABP.HttpApi.Client\obj\Debug\netstandard2.0\TestABP.HttpApi.Client.pdb

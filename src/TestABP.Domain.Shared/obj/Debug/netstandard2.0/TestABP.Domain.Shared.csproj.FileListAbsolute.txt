@@ -1,0 +1,11 @@
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\bin\Debug\netstandard2.0\TestABP.Domain.Shared.deps.json
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\bin\Debug\netstandard2.0\TestABP.Domain.Shared.dll
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\bin\Debug\netstandard2.0\TestABP.Domain.Shared.pdb
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.csproj.AssemblyReference.cache
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.EmbeddedFilesManifest.cache
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.AssemblyInfoInputs.cache
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.AssemblyInfo.cs
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.dll
+C:\Users\a\TestABP\src\TestABP.Domain.Shared\obj\Debug\netstandard2.0\TestABP.Domain.Shared.pdb
